@@ -1,8 +1,8 @@
-# Slug Generator
+# Title to URL Slug
 
 A single-file browser tool that turns a title or phrase into a clean URL slug: lowercase, hyphen-separated, punctuation removed, accents optionally stripped, with optional stop-word removal and a length cap. It shows the slug, a preview URL, and a copy button.
 
-**Live demo:** https://0xelitesystem.github.io/slug-generator/
+**Live demo:** https://0xelitesystem.github.io/title-to-url-slug/
 
 It runs entirely in the browser. Nothing is uploaded, stored, or tracked.
 
@@ -32,8 +32,8 @@ Accent stripping uses Unicode normalization, so most accented Latin characters r
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/slug-generator
-cd slug-generator
+git clone https://github.com/0xelitesystem/title-to-url-slug
+cd title-to-url-slug
 ```
 
 Open `index.html` in a browser, or serve the folder with `python -m http.server` and visit http://localhost:8000.
